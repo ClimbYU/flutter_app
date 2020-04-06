@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../pages1/tabs/Homepage.dart';
-import '../pages1/tabs/Searchpage.dart';
-import '../pages1/tabs/Settingpage.dart';
-import '../pages1/Tabs.dart';
+import '../pages2/tabs/Homepage.dart';
+import '../pages2/tabs/Searchpage.dart';
+import '../pages2/tabs/Settingpage.dart';
+import '../pages2/Tabs.dart';
 
 final routes = {
   '/': (context) => Tabs(),
