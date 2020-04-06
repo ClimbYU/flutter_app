@@ -23,7 +23,8 @@ class _HomepageState extends State<Homepage> {
                   // Navigator.of(context).pushReplacementNamed('/search');
                   //直接返回跟路由
                   Navigator.of(context).pushAndRemoveUntil(
-                    new MaterialPageRoute(builder: (context) => new Tabs()),
+                    new MaterialPageRoute(
+                        builder: (context) => new Tabs(index: 1)),
                     (route) => route == null,
                   );
                 })
