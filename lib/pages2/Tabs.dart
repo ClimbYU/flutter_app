@@ -19,7 +19,7 @@ class _TabsState extends State<Tabs> {
     Setting(),
   ];
 
-  _TabsState({index}) {
+  _TabsState(index) {
     this._currentIndex = index;
   }
 
