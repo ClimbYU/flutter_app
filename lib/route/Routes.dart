@@ -6,6 +6,7 @@ import '../pages2/tabs/Settingpage.dart';
 import '../pages2/Tabs.dart';
 import '../AppBarDemo.dart';
 import '../TabBarControllerPage.dart';
+import '../ButtonPageDemo.dart';
 
 final routes = {
   '/': (context) => Tabs(),
@@ -13,7 +14,8 @@ final routes = {
   '/setting': (context) => Settingpage(),
   '/home': (context) => Homepage(),
   '/AppBarDemo': (context) => AppBarDemoPage(),
-  '/TabarControllerPage': (context) => TabarControllerPage()
+  '/TabarControllerPage': (context) => TabarControllerPage(),
+  '/ButtonPageDemo': (context) => ButtonPageDemo()
 };
 var onGenerateRoute = (RouteSettings settings) {
   final String name = settings.name;

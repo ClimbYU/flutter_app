@@ -6,13 +6,30 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: RaisedButton(
+        child: Column(
+      children: <Widget>[
+        RaisedButton(
           child: Text('search'),
           onPressed: () {
-            Navigator.pushNamed(context, '/search', arguments: {
-              'id': 123,
-            });
-          }),
-    );
+            Navigator.pushNamed(
+              context,
+              '/search',
+              arguments: {
+                'id': 123,
+              },
+            );
+          },
+        ),
+        RaisedButton(
+          child: Text('button示例'),
+          onPressed: () {
+            Navigator.pushNamed(
+              context,
+              '/ButtonPageDemo',
+            );
+          },
+        ),
+      ],
+    ));
   }
 }
